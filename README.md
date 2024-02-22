@@ -16,7 +16,7 @@ Usage
 
 # Run the script using the following command:
       chmod +x DevTools.sh
-      ./install.sh 
+      ./DevTools.sh 
     
 # Dependencies
 * Ubuntu-based system (tested on Ubuntu 22.XX & Zorin)
