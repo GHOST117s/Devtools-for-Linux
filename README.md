@@ -18,7 +18,7 @@ Usage
       ./install.sh 
     
 # Dependencies
-* Ubuntu-based system (tested on Ubuntu XX.XX)
+* Ubuntu-based system (tested on Ubuntu 22.XX & Zorin)
 * Internet connection
 # License
 * This script is licensed under the MIT License.
