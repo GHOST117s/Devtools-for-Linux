@@ -15,6 +15,7 @@ Usage
 ## Make sure you have permissions to execute the script.
 
 # Run the script using the following command:
+      chmod +x DevTools.sh
       ./install.sh 
     
 # Dependencies
