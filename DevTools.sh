@@ -94,4 +94,23 @@ else
     echo "Docker's apt repository is already set up."
 fi
 
+# Install phpMyAdmin using Git and Docker
+echo "Installing phpMyAdmin..."
+git clone https://github.com/GHOST117s/LAMP.git
+cd LAMP || exit
+sudo docker-compose build
+sudo docker-compose up -d
+cd ..
+rm -rf LAMP
+
+# Install PostgreSQL using Git and Docker
+echo "Installing PostgreSQL..."
+git clone https://github.com/GHOST117s/postgres-docker.git
+cd postgres-docker || exit
+sudo docker-compose build
+sudo docker-compose up -d
+cd ..
+rm -rf postgres-docker
+
+
 echo "Snap, PHP, Git, Docker's apt repository installation complete."
